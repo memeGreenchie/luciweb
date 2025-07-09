@@ -1,0 +1,469 @@
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1250px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .bottomImg {
+    /* left: 10% !important; */
+    width: 60% !important;
+  }
+}
+@media (max-width: 1200px) {
+  .shaderSlide {
+    height: 470px;
+  }
+  .searchPopUp form {
+    width: 70%;
+  }
+  .mainMenu {
+    gap: 25px;
+  }
+  .yoso-menu {
+    padding: 0 20px;
+  }
+  .logo {
+    font-size: 30px;
+  }
+  .logo img {
+    width: 25px;
+  }
+  .yoso-h1 {
+    font-size: 50px;
+  }
+  .yoso-desc,
+  .yoso-list li {
+    font-size: 16px;
+  }
+  .yoso-list li i {
+    font-size: 20px;
+  }
+  .yoso-button {
+    height: 50px;
+    padding: 0 20px;
+  }
+  .featureslide {
+    height: 90px;
+  }
+  .slide {
+    font-size: 25px;
+  }
+  .slide::after {
+    width: 35px;
+    height: 35px;
+  }
+  .serviceSingle {
+    padding: 0 25px;
+  }
+  .yoso-h2 {
+    font-size: 30px;
+  }
+  .agencySide img:nth-child(3) {
+    width: 100%;
+  }
+  .aboutAgency .pb-5 {
+    padding-bottom: 20px !important;
+  }
+  .priceSingle {
+    padding: 20px;
+  }
+  .yoso-margin {
+    margin: 100px 0;
+  }
+  .yoso-padding {
+    padding: 100px 0;
+  }
+  .testimonials .swiper-wrapper {
+    height: 350px;
+  }
+  .testimonials .testimonialImg {
+    height: 350px;
+  }
+  .yoso-testimonials .yoso-desc {
+    font-size: 16px;
+  }
+  .testimonialsThumb img {
+    height: 120px;
+  }
+  .expIcon {
+    min-width: 50px;
+    height: 50px;
+    border-width: 2px;
+    margin-right: 10px;
+  }
+  .experienceTxt .yoso-h2 {
+    font-size: 25px;
+  }
+  .expIcon i {
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+  }
+  .experienceTxt .yoso-desc {
+    font-size: 12px;
+  }
+  .tab-pane .yoso-h4 {
+    font-size: 15px;
+  }
+  .yoso-list-3 li {
+    margin: 10px 0;
+  }
+  .tabChart {
+    margin: 20px 0;
+    width: 50%;
+  }
+  .tabs-inner {
+    padding: 0 20px;
+  }
+  .yoso-tab-button button {
+    font-size: 12px;
+  }
+  .yoso-faqs {
+    padding: 20px;
+  }
+  .yoso-faqs .yoso-h2 {
+    font-size: 25px;
+  }
+  .faq-header button {
+    font-size: 18px;
+  }
+  .yoso-h4 {
+    font-size: 20px;
+  }
+  .yoso-h3 {
+    font-size: 15px;
+  }
+  .skillBlock {
+    padding: 14px;
+  }
+  .copyright {
+    min-height: 65px;
+  }
+}
+
+@media (max-width: 992px) {
+  .showSearch form {
+    width: 70%;
+  }
+  .desktopMenu {
+    display: none;
+  }
+  .mobileMenu {
+    display: flex;
+  }
+  .yoso-menu {
+    padding: 0;
+  }
+  .topBar ul {
+    gap: 15px;
+  }
+  .discount,
+  .topBar ul li {
+    font-size: 12px;
+  }
+  .yoso-h1 {
+    font-size: 35px;
+  }
+  .yoso-desc,
+  .yoso-list li {
+    font-size: 14px;
+  }
+  .serviceSingle {
+    padding: 0 10px;
+  }
+  .yoso-button-2 {
+    margin-top: 10px !important;
+  }
+  .serviceIcon {
+    width: 90px;
+    height: 90px;
+    border-width: 6px;
+  }
+  .yoso-h2 {
+    font-size: 25px;
+  }
+  .yoso-desc {
+    padding: 0;
+  }
+  .yoso-list li {
+    margin-top: 8px;
+  }
+  .agencySide img:nth-child(1) {
+    width: 50%;
+  }
+  .awardIcon {
+    min-width: 70px;
+    height: 70px;
+  }
+  .awardIcon img {
+    width: 30px;
+  }
+  .awardSingle {
+    gap: 20px;
+  }
+  .yoso-h4 {
+    font-size: 12px;
+  }
+  .yoso-button-4 {
+    margin-top: 20px;
+    font-size: 18px;
+    height: 45px;
+  }
+  .yoso-price .yoso-desc {
+    font-size: 16px;
+  }
+  .priceImg {
+    height: 70px;
+    margin: 10px 0;
+  }
+  .price {
+    font-size: 25px;
+  }
+  .price span {
+    font-size: 20px;
+  }
+  .testimonials .swiper-wrapper,
+  .testimonials .testimonialImg {
+    height: 250px;
+  }
+  .testimonialsThumb img,
+  .prevNext {
+    height: 80px;
+  }
+  .yoso-testimonials .yoso-desc {
+    font-size: 14px;
+  }
+  .experienceTxt .yoso-h2 {
+    font-size: 20px;
+  }
+  .experienceTxt .yoso-desc {
+    font-size: 10px;
+  }
+  .BorderLine {
+    min-width: 30px;
+  }
+  .yoso-list-3 li {
+    font-size: 12px;
+  }
+  .tabs-inner {
+    padding: 0 30px !important;
+  }
+  .yoso-tab-button button {
+    font-size: 10px;
+  }
+  .faq-header button {
+    font-size: 12px;
+  }
+
+  .faq-item,
+  .faq-header {
+    margin-bottom: 15px;
+  }
+  .postImg {
+    height: 150px;
+  }
+  .postTime {
+    width: 75px;
+    height: 50px;
+  }
+
+  .tab-lg-100 {
+    width: 100%;
+  }
+  .newsLetter {
+    width: max-content;
+    height: 40px;
+    width: 200px;
+    gap: 0;
+  }
+
+  .newsLetter button {
+    padding: 0 15px;
+    font-size: 10px;
+  }
+  .newsLetter input {
+    padding-left: 20px;
+  }
+  .talkPopup form {
+    width: 70%;
+  }
+}
+@media (max-width: 768px) {
+  .searchPopUp form {
+    width: 85%;
+  }
+  .container {
+    max-width: 90%;
+  }
+  .yoso-button {
+    margin: 20px 0;
+  }
+  .bottomImg {
+    width: 50% !important;
+  }
+  .tab-50 {
+    width: 50%;
+  }
+  .tab-100 {
+    width: 100%;
+  }
+  .tagline {
+    margin-top: 20px;
+  }
+  .priceSingle {
+    margin-top: 20px;
+  }
+  .tab-none {
+    display: none;
+  }
+  .tab-33 {
+    width: 33.33%;
+  }
+  .tabs-inner {
+    border-radius: 0 !important;
+  }
+  .postImg {
+    height: 300px;
+  }
+  .d-flex.align-items-center.w-100.justify-content-end.gap-3 {
+    justify-content: start !important;
+    margin-top: 20px;
+  }
+  .footerHeader::before {
+    display: none;
+  }
+  .footerMain .yoso-h4 {
+    margin: 20px 0 !important;
+    margin-top: 40px !important;
+  }
+}
+@media (max-width: 576px) {
+  .yoso-talk {
+    display: none;
+  }
+  .container {
+    max-width: 100%;
+  }
+  header nav {
+    padding: 0 15px;
+  }
+  .discount,
+  .topBar ul li {
+    font-size: 10px;
+  }
+  .bottomImg {
+    width: 40% !important;
+  }
+  .loaderBottomTxt,
+  .loaderTopTxt {
+    font-size: 100px;
+  }
+  .sm-lg-100 {
+    width: 100%;
+    text-align: center;
+  }
+  .shaderSlide {
+    height: 250px;
+  }
+  .circleTxt {
+    width: 50%;
+    height: 50%;
+    margin: 20px auto;
+  }
+  .showSearch form {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .yoso-h1 {
+    font-size: 25px;
+  }
+  .slideInner {
+    gap: 45px;
+  }
+  .slideInner .slide {
+    gap: 20px;
+  }
+  .sm-100 {
+    width: 100%;
+  }
+  .sm-50 {
+    width: 50%;
+  }
+  .desktopTopBar {
+    display: none;
+  }
+  header nav {
+    min-height: 70px;
+    display: flex;
+    justify-content: center;
+  }
+  .loaderBottomTxt,
+  .loaderTopTxt {
+    font-size: 70px;
+  }
+  .aboutAgency .px-5 {
+    padding: 0 !important;
+  }
+  .position-absolute.end-0.pe-5 {
+    display: none;
+  }
+  .experienceSingle {
+    align-items: start !important;
+    margin-top: 20px;
+    min-width: 60%;
+  }
+  .experienceSingle .BorderLine {
+    display: none;
+  }
+  .yoso-faqs.p-5 {
+    padding: 20px !important;
+  }
+  .tagline p {
+    font-size: 12px;
+  }
+  .yoso-faqs .yoso-h2 {
+    font-size: 20px;
+  }
+  .postImg {
+    height: 250px;
+  }
+  .d-flex.gap-4.sm-lg-100.flex-wrap {
+    gap: 20px !important;
+    justify-content: center;
+  }
+  .copyrightTxt {
+    margin-bottom: 20px;
+  }
+  .copyright {
+    padding: 20px 0;
+  }
+  .searchPopUp form {
+    width: 90%;
+    padding: 0 20px;
+    height: 65px;
+  }
+  .searchPopUp form input,
+  .searchPopUp form input::placeholder {
+    font-size: 15px;
+  }
+  .searchPopUp form button {
+    font-size: 22px;
+  }
+  .mobileMenu .mainMenu {
+    gap: 20px;
+  }
+  .mobileMenu .mainMenu li a {
+    font-size: 30px;
+  }
+  .mobileMenu .topBar {
+    flex-wrap: wrap;
+    padding: 10px !important;
+    gap: 10px;
+  }
+  .yoso-talk {
+    display: none;
+  }
+}

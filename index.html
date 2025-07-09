@@ -1,0 +1,1480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <title>Lucidai – Decode Your Dreams. Discover Web3.</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon.png" />
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png" />
+
+    <meta name="description"
+      content="Lucidai is an AI-powered dream analysis platform that interprets your dreams and connects them to personalized crypto recommendations. Emotional AI meets Web3." />
+    <meta name="keywords"
+      content="Lucidai, AI Dream Interpretation, Crypto Matching, Emotional Web3, LUCI Token, Telegram Mini App" />
+    <meta name="author" content="Lucidai Team" />
+  
+    <!-- Social preview -->
+    <meta property="og:title" content="Lucidai – Where Dreams Meet Crypto" />
+    <meta property="og:description"
+      content="AI-powered dream interpretation that guides you into Web3 through emotion and symbolism." />
+    <meta property="og:image" content="assets/images/preview/banner.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.dream-lucidai.xyz" />
+  
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+  
+    <!-- Bootstrap 5.3.3 -->
+    <link rel="stylesheet" href="assets/dist/framework/bootstrap/css/bootstrap.min.css" />
+  
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="assets/dist/css/colors.css" />
+    <link rel="stylesheet" href="assets/dist/css/theme.css" />
+    <link rel="stylesheet" href="assets/dist/css/responsive.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/dist/libraries/swiperSlider/effects/swiper-gl.min.css" />
+  
+    <link rel="stylesheet" href="assets/dist/css/animation.css" />
+  </head>
+
+  <body>
+    <!-- loader -->
+    <div class="loader">
+      <div class="loaderTop">
+        <span class="loaderTopTxt"> <span class="animateTxt">Lucidai</span></span>
+      </div>
+      <div class="loaderBottom">
+        <span class="loaderBottomTxt">
+          <span class="animateTxt">Lucidai</span></span
+        >
+      </div>
+    </div>
+
+    <div id="scroll-content">
+      <main>
+        <header id="home" class="d-flex flex-column">
+          <div class="container d-flex flex-column flex-grow-1">
+            <nav class="yoso-nav">
+              <div class="topBar desktopTopBar">
+                <h5 class="discount">
+                  <strong>Now Live</strong>: Discover Lucidai's Dream-to-Crypto Beta
+                </h5>
+                <ul class="list-unstyled">
+                  <li>
+                    <i class="fa-brands fa-telegram"></i>
+                    <a href="https://t.me/lucidreamai" target="_blank" style="color: inherit; text-decoration: none;">Join
+                      Telegram</a>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:official@dream-lucidai.xyz"
+                      style="color: inherit; text-decoration: none;">official@dream-lucidai.xyz</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="yoso-menu" id="navbar">
+                <div class="logo">
+                  <img src="assets/images/header/typo.png" alt="Icon" style="width: 110px;"/>
+                </div>
+        
+                <!-- desktop -->
+                <ul class="list-unstyled desktopMenu mainMenu">
+                  <li><a class="menuText" href="#home"><span class="menuTextInner">Home</span><span
+                        class="duplicateText"></span></a></li>
+                  <li><a class="menuText" href="#services"><span class="menuTextInner">How It Works</span><span
+                        class="duplicateText"></span></a></li>
+                  <li><a class="menuText" href="#gallery"><span class="menuTextInner">Dream Diary</span><span
+                        class="duplicateText"></span></a></li>
+                  <li><a class="menuText" href="#pricing"><span class="menuTextInner">Token</span><span
+                        class="duplicateText"></span></a></li>
+                  <li><a class="menuText" href="#reviews"><span class="menuTextInner">Roadmap</span><span
+                        class="duplicateText"></span></a></li>
+                  <li><a href="#blog" class="menuText"><span class="menuTextInner">Links</span><span
+                        class="duplicateText"></span></a></li>
+                </ul>
+        
+                <!-- mobile Menu -->
+                <div class="mobileMenu">
+                  <div class="hamburger">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                  </div>
+                  <ul class="list-unstyled mainMenu d-none">
+                    
+                    <div class="hamburger">
+                      <span class="hamburger-line"></span>
+                      <span class="hamburger-line"></span>
+                      <span class="hamburger-line"></span>
+                    </div>
+                    <li><a class="menuText" href="#home"><span class="menuTextInner">Home</span><span class="duplicateText"></span></a></li>
+                    <li><a class="menuText" href="#services"><span class="menuTextInner">How It Works</span><span
+                          class="duplicateText"></span></a></li>
+                    <li><a class="menuText" href="#gallery"><span class="menuTextInner">Dream Diary</span><span
+                          class="duplicateText"></span></a></li>
+                    <li><a class="menuText" href="#pricing"><span class="menuTextInner">Token</span><span
+                          class="duplicateText"></span></a></li>
+                    <li><a class="menuText" href="#reviews"><span class="menuTextInner">Roadmap</span><span
+                          class="duplicateText"></span></a></li>
+                    <li><a href="#blog" class="menuText"><span class="menuTextInner">Links</span><span class="duplicateText"></span></a></li>
+                  </ul>
+                </div>
+        
+                <button class="yoso-talk revealTalk" onclick="window.open('https://t.me/lucidreamai', '_blank')">
+                  <i class="fa-solid fa-comment"></i>Talk to Us
+                </button>
+                <button class="yoso-talk revealTalk" onclick="window.open('https://t.me/lucidaidream_bot', '_blank')">
+                  <img src="assets/images/header/icon.png" style="width: 20%;">Launch
+                </button>
+              </div>
+            </nav>
+          </div>
+        
+          <!-- Hero Section -->
+          <section class="yosoHero my-5 flex-grow-1 d-flex flex-column justify-content-center">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                  <div class="tagline">
+                    <img src="assets/images/star.png" alt="Star" />
+                    <p>AI-Powered Dream Interpretation</p>
+                  </div>
+                  <h2 class="yoso-h2">Discover Who You Are. Explore What You Deserve.</h2>
+                </div>
+                <div class="col-md-2">
+                  <div class="circleTxt">
+                    <img class="rotateTxt" src="assets/images/circleTxt.png" class="img-fluid rounded-top" alt="" />
+                    <img src="assets/images/lauch.png" alt="Launch" />
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <p class="yoso-desc">
+                    Lucidai uses your dreams to reveal hidden emotions and connect you to crypto projects that match your inner
+                    world.
+                  </p>
+                  <ul class="list-unstyled yoso-list">
+                    <li>
+                      <i class="fa-solid fa-check-circle"></i>AI Dream Interpretation
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-check-circle"></i>Emotion-Based Crypto Matching
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        
+            <div class="mt-5 mb-5">
+              <div class="shaderSlide swiper position-relative">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img class="swiper-gl-image" src="assets/images/header/heroSlider/images/slide_01.jpg" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="swiper-gl-image" src="assets/images/header/heroSlider/images/slide_02.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="container yoso-details-pagination" style="z-index: 100;"></div>
+              </div>
+            </div>
+        
+            <div class="container">
+              <div class="row yoso-margin mt-5">
+                <div class="col-md-3">
+                  <div class="aboutSingle">
+                    <div class="aboutImg position-relative">
+                      <span class="aboutText">1</span>
+                      <img src="assets/images/about/ab1.png" alt="About" />
+                    </div>
+                    <h3 class="mt-3 yoso-h3 text-center">Emotional AI</h3>
+                    <p class="yoso-desc py-0 text-center">
+                      Our model decodes dreams with psychological sensitivity.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="aboutSingle position-relative">
+                    <div class="aboutImg position-relative">
+                      <span class="aboutText">2</span>
+                      <img src="assets/images/about/ab2.png" alt="About" />
+                    </div>
+                    <h3 class="mt-3 yoso-h3 text-center">Web3 Integration</h3>
+                    <p class="yoso-desc py-0 text-center">
+                      Token suggestions based on your emotions and inner traits.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="aboutSingle">
+                    <div class="aboutImg position-relative">
+                      <span class="aboutText">3</span>
+                      <img src="assets/images/about/ab3.png" alt="About" />
+                    </div>
+                    <h3 class="mt-3 yoso-h3 text-center">Private & Secure</h3>
+                    <p class="yoso-desc py-0 text-center">
+                      Your dreams and identity are processed with full privacy.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="aboutSingle">
+                    <div class="aboutImg position-relative">
+                      <span class="aboutText">4</span>
+                      <img src="assets/images/about/ab4.png" alt="About" />
+                    </div>
+                    <h3 class="mt-3 yoso-h3 text-center">Accessible TG</h3>
+                    <p class="yoso-desc py-0 text-center">
+                      Experience everything via our lightweight Telegram Mini-App.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+          <!-- Popup Areas remain unchanged -->
+          <!-- <div class="searchPopUp">
+            <div class="close search">
+              <i class="revealSearch fa-solid fa-xmark"></i>
+            </div>
+            <form>
+              <input type="text" placeholder="Type to Search.." />
+              <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+          </div> -->
+        
+          <!-- <div class="talkPopup">
+            <div class="close search">
+              <i class="revealTalk fa-solid fa-xmark"></i>
+            </div>
+            <form>
+              <input type="text" placeholder="Subject" />
+              <input type="email" placeholder="Email" />
+              <textarea placeholder="Type message"></textarea>
+              <button style="all: unset">
+                <a href="#" class="mt-4 yoso-button">
+                  read more
+                  <span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </span>
+                </a>
+              </button>
+            </form>
+          </div> -->
+        </header>
+
+
+        <!-- Yoso Services -->
+        <section class="yoso-services">
+          <div class="featureslide">
+            <div class="marquee">
+              <div class="slideInner">
+                <h1 class="slide">Dream Analysis</h1>
+                <h1 class="slide">Emotional AI</h1>
+                <h1 class="slide">Crypto Matching</h1>
+                <h1 class="slide">Web3 Discovery</h1>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div id="services" class="services yoso-margin">
+              <div class="tagline justify-content-center">
+                <img src="assets/images/star.png" alt="Star" />
+                <p>Lucidai Core Features</p>
+              </div>
+              <h2 class="yoso-h2 text-center">Decode. Understand. Discover.</h2>
+              <div class="row">
+                <div class="col-md-4 tab-50 sm-100">
+                  <div class="serviceSingle pb-4">
+                    <div class="serviceIcon">
+                      <img src="assets/images/announcement.png" alt="announcement" />
+                    </div>
+                    <h3 class="yoso-h3 m-0">Dream Interpretation</h3>
+                    <p class="yoso-desc">
+                      Submit your dream in natural language and receive symbolic and emotional analysis powered by AI.
+                    </p>
+                    <ul class="list-unstyled yoso-list yoso-list-2">
+                      <li><i class="fa-solid fa-check"></i>Emotion tagging & themes</li>
+                      <li><i class="fa-solid fa-check"></i>Personality insights</li>
+                    </ul>
+                    <a href="https://t.me/lucidaidream_bot" class="mt-5 yoso-button-2"><i class="fa-solid fa-right-long"></i></a>
+                  </div>
+                </div>
+        
+                <div class="col-md-4 tab-50 sm-100">
+                  <div class="serviceSingle pb-4">
+                    <div class="serviceIcon">
+                      <img src="assets/images/announcement.png" alt="announcement" />
+                    </div>
+                    <h3 class="yoso-h3 m-0">Crypto Matching</h3>
+                    <p class="yoso-desc">
+                      Get matched with major crypto projects that align with your emotional state and dream narrative.
+                    </p>
+                    <ul class="list-unstyled yoso-list yoso-list-2">
+                      <li><i class="fa-solid fa-check"></i>BTC, ETH, SOL and more</li>
+                      <li><i class="fa-solid fa-check"></i>Emotion → Token logic</li>
+                    </ul>
+                    <a href="https://t.me/lucidaidream_bot" class="mt-5 yoso-button-2"><i class="fa-solid fa-right-long"></i></a>
+                  </div>
+                </div>
+        
+                <div class="col-md-4 tab-50 sm-100">
+                  <div class="serviceSingle pb-4">
+                    <div class="serviceIcon">
+                      <img src="assets/images/announcement.png" alt="announcement" />
+                    </div>
+                    <h3 class="yoso-h3 m-0">MyLucidai Diary</h3>
+                    <p class="yoso-desc">
+                      Track your past dreams, emotional trends, and matched crypto projects — all in one place.
+                    </p>
+                    <ul class="list-unstyled yoso-list yoso-list-2">
+                      <li><i class="fa-solid fa-check"></i>Dream log & emotion history</li>
+                      <li><i class="fa-solid fa-check"></i>Token suggestion archive</li>
+                    </ul>
+                    <a href="https://t.me/lucidaidream_bot" class="mt-5 yoso-button-2"><i class="fa-solid fa-right-long"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- About -->
+        <section class="aboutAgency">
+          <div class="container-fluid">
+            <div class="row px-5 align-items-end">
+              <div class="col-md-7">
+                <div class="agencySide position-relative">
+                  <img class="position-absolute start-0" src="assets/images/quote.png" alt="" />
+                  <img class="position-absolute start-0" src="assets/images/agency2.png" alt="" />
+                  <img src="assets/images/avatar.png" alt="Avatar" />
+                  <img class="position-absolute end-0 pe-5" src="assets/images/agency1.png" alt="" />
+                </div>
+              </div>
+              <div class="col-md-5 pb-5 mb-3">
+                <div class="tagline">
+                  <img src="assets/images/star.png" alt="Star" />
+                  <p>Emotional AI meets Web3</p>
+                </div>
+                <h2 class="yoso-h2">Where Your Dreams Find Meaning</h2>
+                <p class="yoso-desc">
+                  Lucidai is built by dreamers, designers, and engineers who believe that emotional insight is the most powerful
+                  gateway to digital value. We don't just decode data — we interpret your subconscious to connect you with the
+                  crypto world.
+                </p>
+                <ul class="list-unstyled yoso-list">
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>Symbolic Dream Analysis
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>Emotion-Based Token Matching
+                  </li>
+                </ul>
+                <a href="https://dream-lucidai.gitbook.io/dream-lucidai-docs" class="mt-5 yoso-button">
+                  read more
+                  <span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Gallery -->
+        <section id="gallery" class="yoso-margin yoso-gallery">
+          <div class="tagline justify-content-center">
+            <img src="assets/images/star.png" alt="Star" />
+            <p>Visualizing Your Inner World</p>
+          </div>
+          <h2 class="text-center yoso-h2">Lucidai in Action</h2>
+        
+          <div class="gallery mt-5">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="gallerySingle">
+                    <img class="w-100 rounded-3" src="assets/images/Gallery/slide1.jpg" alt="" />
+                    <div class="aboutGallery">
+                      <article>
+                        <h6 class="yoso-h6 m-0 p-0 mb-2">Emotion Mapping</h6>
+                        <h4 class="yoso-h4 m-0 p-0">Fear, Hope, Freedom</h4>
+                      </article>
+                      <a href="https://dream-lucidai.gitbook.io/dream-lucidai-docs/key-features/emotion-based-insights-and-trends" class="yoso-button-3">
+                        <span><i class="fa-solid fa-arrow-right"></i><i class="fa-solid fa-arrow-right"></i></span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="gallerySingle">
+                    <img class="w-100 rounded-3" src="assets/images/Gallery/slide3.jpg" alt="" />
+                    <div class="aboutGallery">
+                      <article>
+                        <h6 class="yoso-h6 m-0 p-0 mb-2">Symbolic Interpretation</h6>
+                        <h4 class="yoso-h4 m-0 p-0">Flying = Liberation</h4>
+                      </article>
+                      <a href="https://dream-lucidai.gitbook.io/dream-lucidai-docs/key-features/emotion-based-insights-and-trends" class="yoso-button-3">
+                        <span><i class="fa-solid fa-arrow-right"></i><i class="fa-solid fa-arrow-right"></i></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="swiper-slide">
+                  <div class="gallerySingle">
+                    <img class="w-100 rounded-3" src="assets/images/Gallery/slide2.jpg" alt="" />
+                    <div class="aboutGallery">
+                      <article>
+                        <h6 class="yoso-h6 m-0 p-0 mb-2">Crypto Match</h6>
+                        <h4 class="yoso-h4 m-0 p-0">$ETH for Creative Dreams</h4>
+                      </article>
+                      <a href="https://dream-lucidai.gitbook.io/dream-lucidai-docs/key-features/emotion-based-insights-and-trends" class="yoso-button-3">
+                        <span><i class="fa-solid fa-arrow-right"></i><i class="fa-solid fa-arrow-right"></i></span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="gallerySingle">
+                    <img class="w-100 rounded-3" src="assets/images/Gallery/slide4.jpg" alt="" />
+                    <div class="aboutGallery">
+                      <article>
+                        <h6 class="yoso-h6 m-0 p-0 mb-2">Dream Snapshot</h6>
+                        <h4 class="yoso-h4 m-0 p-0">"I was floating above a city"</h4>
+                      </article>
+                      <a href="https://dream-lucidai.gitbook.io/dream-lucidai-docs/key-features/emotion-based-insights-and-trends" class="yoso-button-3">
+                        <span><i class="fa-solid fa-arrow-right"></i><i class="fa-solid fa-arrow-right"></i></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="swiper-slide">
+                  <div class="gallerySingle">
+                    <img class="w-100 rounded-3" src="assets/images/Gallery/slide5.jpg" alt="" />
+                    <div class="aboutGallery">
+                      <article>
+                        <h6 class="yoso-h6 m-0 p-0 mb-2">Subconscious Themes</h6>
+                        <h4 class="yoso-h4 m-0 p-0">Exploring Inner Desires</h4>
+                      </article>
+                      <a href="https://dream-lucidai.gitbook.io/dream-lucidai-docs/key-features/emotion-based-insights-and-trends" class="yoso-button-3">
+                        <span><i class="fa-solid fa-arrow-right"></i><i class="fa-solid fa-arrow-right"></i></span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="gallerySingle">
+                    <img class="w-100 rounded-3" src="assets/images/Gallery/slide7.jpg" alt="" />
+                    <div class="aboutGallery">
+                      <article>
+                        <h6 class="yoso-h6 m-0 p-0 mb-2">Emotional Insight</h6>
+                        <h4 class="yoso-h4 m-0 p-0">Track How You Feel Over Time</h4>
+                      </article>
+                      <a href="https://dream-lucidai.gitbook.io/dream-lucidai-docs/key-features/emotion-based-insights-and-trends" class="yoso-button-3">
+                        <span><i class="fa-solid fa-arrow-right"></i><i class="fa-solid fa-arrow-right"></i></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="swiper-slide">
+                  <div class="gallerySingle">
+                    <img class="w-100 rounded-3" src="assets/images/Gallery/slide6.jpg" alt="" />
+                    <div class="aboutGallery">
+                      <article>
+                        <h6 class="yoso-h6 m-0 p-0 mb-2">From Dream to Data</h6>
+                        <h4 class="yoso-h4 m-0 p-0">AI That Understands You</h4>
+                      </article>
+                      <a href="https://dream-lucidai.gitbook.io/dream-lucidai-docs/key-features/emotion-based-insights-and-trends" class="yoso-button-3">
+                        <span><i class="fa-solid fa-arrow-right"></i><i class="fa-solid fa-arrow-right"></i></span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="gallerySingle">
+                    <img class="w-100 rounded-3" src="assets/images/Gallery/slide8.jpg" alt="" />
+                    <div class="aboutGallery">
+                      <article>
+                        <h6 class="yoso-h6 m-0 p-0 mb-2">Token Recommendations</h6>
+                        <h4 class="yoso-h4 m-0 p-0">Matched to Your Mindset</h4>
+                      </article>
+                      <a href="https://dream-lucidai.gitbook.io/dream-lucidai-docs/key-features/emotion-based-insights-and-trends" class="yoso-button-3">
+                        <span><i class="fa-solid fa-arrow-right"></i><i class="fa-solid fa-arrow-right"></i></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+        
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Awards section -->
+        <section class="yoso-awards yoso-padding">
+          <div class="container">
+            <div class="tagline darkTagline justify-content-center">
+              <img src="assets/images/starLight.png" alt="Star" />
+              <p>Emotion Meets Intelligence</p>
+            </div>
+            <h2 class="yoso-h2 text-center headingLight">
+              What Makes Lucidai Different
+            </h2>
+            <div class="row mt-5">
+              <div class="col-md-6 pe-5 sm-100 tab-50">
+                <div class="awardSingle">
+                  <div class="awardIcon">
+                    <img src="assets/images/awardIcon/announcement.png" alt="Icon" />
+                  </div>
+                  <h4 class="yoso-h4 headingLight menuText">
+                    <span class="menuTextInner">Emotion-Based Token Matching</span>
+                    <span class="duplicateText"></span>
+                  </h4>
+                  <a href="https://dream-lucidai.gitbook.io/dream-lucidai-docs/solution-lucidai/a-new-way-to-understand-yourself-and-the-blockchain" class="yoso-button-3">
+                    <span><i class="fa-solid fa-arrow-right"></i><i class="fa-solid fa-arrow-right"></i></span>
+                  </a>
+                </div>
+              </div>
+        
+              <div class="col-md-6 ps-5 sm-100 tab-50">
+                <div class="awardSingle">
+                  <div class="awardIcon">
+                    <img src="assets/images/awardIcon/announcement.png" alt="Icon" />
+                  </div>
+                  <h4 class="yoso-h4 headingLight menuText">
+                    <span class="menuTextInner">Symbolic Dream Interpretation</span>
+                    <span class="duplicateText"></span>
+                  </h4>
+                  <a href="https://dream-lucidai.gitbook.io/dream-lucidai-docs/solution-lucidai/a-new-way-to-understand-yourself-and-the-blockchain" class="yoso-button-3">
+                    <span><i class="fa-solid fa-arrow-right"></i><i class="fa-solid fa-arrow-right"></i></span>
+                  </a>
+                </div>
+              </div>
+        
+              <div class="col-md-6 pe-5 sm-100 tab-50">
+                <div class="awardSingle">
+                  <div class="awardIcon">
+                    <img src="assets/images/awardIcon/announcement.png" alt="Icon" />
+                  </div>
+                  <h4 class="yoso-h4 headingLight menuText">
+                    <span class="menuTextInner">Personalized Web3 Discovery</span>
+                    <span class="duplicateText"></span>
+                  </h4>
+                  <a href="https://dream-lucidai.gitbook.io/dream-lucidai-docs/solution-lucidai/a-new-way-to-understand-yourself-and-the-blockchain" class="yoso-button-3">
+                    <span><i class="fa-solid fa-arrow-right"></i><i class="fa-solid fa-arrow-right"></i></span>
+                  </a>
+                </div>
+              </div>
+        
+              <div class="col-md-6 ps-5 sm-100 tab-50">
+                <div class="awardSingle">
+                  <div class="awardIcon">
+                    <img src="assets/images/awardIcon/announcement.png" alt="Icon" />
+                  </div>
+                  <h4 class="yoso-h4 headingLight menuText">
+                    <span class="menuTextInner">Dream Diary & Trend Tracking</span>
+                    <span class="duplicateText"></span>
+                  </h4>
+                  <a href="https://dream-lucidai.gitbook.io/dream-lucidai-docs/solution-lucidai/a-new-way-to-understand-yourself-and-the-blockchain" class="yoso-button-3">
+                    <span><i class="fa-solid fa-arrow-right"></i><i class="fa-solid fa-arrow-right"></i></span>
+                  </a>
+                </div>
+              </div>
+        
+              <div class="col-md-6 pe-5 sm-100 tab-50">
+                <div class="awardSingle">
+                  <div class="awardIcon">
+                    <img src="assets/images/awardIcon/announcement.png" alt="Icon" />
+                  </div>
+                  <h4 class="yoso-h4 headingLight menuText">
+                    <span class="menuTextInner">No Wallet or Setup Needed</span>
+                    <span class="duplicateText"></span>
+                  </h4>
+                  <a href="https://dream-lucidai.gitbook.io/dream-lucidai-docs/solution-lucidai/a-new-way-to-understand-yourself-and-the-blockchain" class="yoso-button-3">
+                    <span><i class="fa-solid fa-arrow-right"></i><i class="fa-solid fa-arrow-right"></i></span>
+                  </a>
+                </div>
+              </div>
+        
+              <div class="col-md-6 ps-5 sm-100 tab-50">
+                <div class="awardSingle">
+                  <div class="awardIcon">
+                    <img src="assets/images/awardIcon/announcement.png" alt="Icon" />
+                  </div>
+                  <h4 class="yoso-h4 headingLight menuText">
+                    <span class="menuTextInner">Ethical Emotional AI</span>
+                    <span class="duplicateText"></span>
+                  </h4>
+                  <a href="https://dream-lucidai.gitbook.io/dream-lucidai-docs/solution-lucidai/a-new-way-to-understand-yourself-and-the-blockchain" class="yoso-button-3">
+                    <span><i class="fa-solid fa-arrow-right"></i><i class="fa-solid fa-arrow-right"></i></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="yoso-price yoso-margin">
+          <div class="container">
+            <div class="tagline justify-content-center">
+              <img src="assets/images/star.png" alt="Star" />
+              <p>Powered by LUCI Token</p>
+            </div>
+            <h2 class="yoso-h2 text-center">
+              Token Allocation<br />
+              and Vesting Plan
+            </h2>
+        
+            <div class="row mt-5">
+        
+              <!-- 1. Ecosystem & Rewards -->
+              <div class="col-md-4 tab-50 sm-100">
+                <div class="priceSingle">
+                  <div class="price">30%<span> of Supply</span></div>
+                  <!-- <img src="assets/images/pricing/price1.png" alt="Pricing" class="priceImg" /> -->
+                  <h4 class="yoso-h4">Ecosystem & Rewards</h4>
+                  <p class="yoso-desc mt-2 p-0">Usage-based emission over 4 years</p>
+                  <div class="priceLine"></div>
+                  <ul class="list-unstyled yoso-list">
+                    <li><i class="fa-solid fa-circle-check"></i>No cliff</li>
+                    <li><i class="fa-solid fa-circle-check"></i>Dynamic emission</li>
+                    <li><i class="fa-solid fa-circle-check"></i>User engagement linked</li>
+                  </ul>
+                  <a href="#" class="yoso-button-4">Details</a>
+                </div>
+              </div>
+        
+              <!-- 2. Team & Advisors -->
+              <div class="col-md-4 tab-50 sm-100">
+                <div class="priceSingle" style="background-color: transparent;">
+                  <div class="price">15%<span> of Supply</span></div>
+                  <!-- <img src="assets/images/pricing/price2.png" alt="Pricing" class="priceImg" /> -->
+                  <h4 class="yoso-h4">Team & Advisors</h4>
+                  <p class="yoso-desc mt-2 p-0">Long-term alignment over 3 years</p>
+                  <div class="priceLine"></div>
+                  <ul class="list-unstyled yoso-list">
+                    <li><i class="fa-solid fa-circle-check"></i>12-month cliff</li>
+                    <li><i class="fa-solid fa-circle-check"></i>36-month vesting</li>
+                    <li><i class="fa-solid fa-circle-check"></i>Linear unlock</li>
+                  </ul>
+                  <a href="#" class="yoso-button-4">Details</a>
+                </div>
+              </div>
+        
+              <!-- 3. Private Sale -->
+              <div class="col-md-4 tab-50 sm-100">
+                <div class="priceSingle">
+                  <div class="price">10%<span> of Supply</span></div>
+                  <!-- <img src="assets/images/pricing/price3.png" alt="Pricing" class="priceImg" /> -->
+                  <h4 class="yoso-h4">Private Sale</h4>
+                  <p class="yoso-desc mt-2 p-0">Support from early believers</p>
+                  <div class="priceLine"></div>
+                  <ul class="list-unstyled yoso-list">
+                    <li><i class="fa-solid fa-circle-check"></i>3-month cliff</li>
+                    <li><i class="fa-solid fa-circle-check"></i>18-month vesting</li>
+                    <li><i class="fa-solid fa-circle-check"></i>Monthly release</li>
+                  </ul>
+                  <a href="#" class="yoso-button-4">Details</a>
+                </div>
+              </div>
+        
+              <!-- 4. Public Sale -->
+              <div class="col-md-4 tab-50 sm-100">
+                <div class="priceSingle" style="background-color: transparent;">
+                  <div class="price">5%<span> of Supply</span></div>
+                  <!-- <img src="assets/images/pricing/price1.png" alt="Pricing" class="priceImg" /> -->
+                  <h4 class="yoso-h4">Public Sale (IDO)</h4>
+                  <p class="yoso-desc mt-2 p-0">Community-based distribution</p>
+                  <div class="priceLine"></div>
+                  <ul class="list-unstyled yoso-list">
+                    <li><i class="fa-solid fa-circle-check"></i>20% at TGE</li>
+                    <li><i class="fa-solid fa-circle-check"></i>6-month linear vesting</li>
+                    <li><i class="fa-solid fa-circle-check"></i>Fair launch strategy</li>
+                  </ul>
+                  <a href="#" class="yoso-button-4">Details</a>
+                </div>
+              </div>
+        
+              <!-- 5. Strategic Partners -->
+              <div class="col-md-4 tab-50 sm-100">
+                <div class="priceSingle">
+                  <div class="price">10%<span> of Supply</span></div>
+                  <!-- <img src="assets/images/pricing/price2.png" alt="Pricing" class="priceImg" /> -->
+                  <h4 class="yoso-h4">Strategic Partners</h4>
+                  <p class="yoso-desc mt-2 p-0">Collaborative growth with partners</p>
+                  <div class="priceLine"></div>
+                  <ul class="list-unstyled yoso-list">
+                    <li><i class="fa-solid fa-circle-check"></i>6-month cliff</li>
+                    <li><i class="fa-solid fa-circle-check"></i>24-month vesting</li>
+                    <li><i class="fa-solid fa-circle-check"></i>Project synergies</li>
+                  </ul>
+                  <a href="#" class="yoso-button-4">Details</a>
+                </div>
+              </div>
+        
+              <!-- 6. Liquidity -->
+              <div class="col-md-4 tab-50 sm-100">
+                <div class="priceSingle" style="background-color: transparent;">
+                  <div class="price">10%<span> of Supply</span></div>
+                  <!-- <img src="assets/images/pricing/price3.png" alt="Pricing" class="priceImg" /> -->
+                  <h4 class="yoso-h4">Liquidity</h4>
+                  <p class="yoso-desc mt-2 p-0">Immediate trading access</p>
+                  <div class="priceLine"></div>
+                  <ul class="list-unstyled yoso-list">
+                    <li><i class="fa-solid fa-circle-check"></i>100% unlocked at TGE</li>
+                    <li><i class="fa-solid fa-circle-check"></i>LP lock in place</li>
+                    <li><i class="fa-solid fa-circle-check"></i>DEX/CEX support</li>
+                  </ul>
+                  <a href="#" class="yoso-button-4">Details</a>
+                </div>
+              </div>
+        
+              <!-- 7. Development Reserve -->
+              <div class="col-md-4 tab-50 sm-100">
+                <div class="priceSingle">
+                  <div class="price">10%<span> of Supply</span></div>
+                  <!-- <img src="assets/images/pricing/price1.png" alt="Pricing" class="priceImg" /> -->
+                  <h4 class="yoso-h4">Development Reserve</h4>
+                  <p class="yoso-desc mt-2 p-0">For future platform upgrades</p>
+                  <div class="priceLine"></div>
+                  <ul class="list-unstyled yoso-list">
+                    <li><i class="fa-solid fa-circle-check"></i>6-month cliff</li>
+                    <li><i class="fa-solid fa-circle-check"></i>30-month vesting</li>
+                    <li><i class="fa-solid fa-circle-check"></i>Feature-based use</li>
+                  </ul>
+                  <a href="#" class="yoso-button-4">Details</a>
+                </div>
+              </div>
+        
+              <!-- 8. Marketing & Growth -->
+              <div class="col-md-4 tab-50 sm-100">
+                <div class="priceSingle" style="background-color: transparent;">
+                  <div class="price">5%<span> of Supply</span></div>
+                  <!-- <img src="assets/images/pricing/price2.png" alt="Pricing" class="priceImg" /> -->
+                  <h4 class="yoso-h4">Marketing & Growth</h4>
+                  <p class="yoso-desc mt-2 p-0">Driving awareness & adoption</p>
+                  <div class="priceLine"></div>
+                  <ul class="list-unstyled yoso-list">
+                    <li><i class="fa-solid fa-circle-check"></i>1-month cliff</li>
+                    <li><i class="fa-solid fa-circle-check"></i>12-month vesting</li>
+                    <li><i class="fa-solid fa-circle-check"></i>Campaign-based usage</li>
+                  </ul>
+                  <a href="#" class="yoso-button-4">Details</a>
+                </div>
+              </div>
+        
+              <!-- 9. Treasury & Operations -->
+              <div class="col-md-4 tab-50 sm-100">
+                <div class="priceSingle">
+                  <div class="price">5%<span> of Supply</span></div>
+                  <!-- <img src="assets/images/pricing/price3.png" alt="Pricing" class="priceImg" /> -->
+                  <h4 class="yoso-h4">Treasury & Ops</h4>
+                  <p class="yoso-desc mt-2 p-0">Managed for long-term flexibility</p>
+                  <div class="priceLine"></div>
+                  <ul class="list-unstyled yoso-list">
+                    <li><i class="fa-solid fa-circle-check"></i>6-month cliff</li>
+                    <li><i class="fa-solid fa-circle-check"></i>Governance directed</li>
+                    <li><i class="fa-solid fa-circle-check"></i>Used as needed</li>
+                  </ul>
+                  <a href="#" class="yoso-button-4">Details</a>
+                </div>
+              </div>
+        
+            </div>
+        
+            <p class="yoso-desc mt-4 text-center">
+              Want full technical breakdown? <a href="#">Download our Whitepaper</a>
+            </p>
+          </div>
+        </section>
+
+
+        <!-- testimonials  -->
+        <section id="reviews" class="yoso-testimonials yoso-padding">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-9">
+                <div class="swiper testimonials">
+                  <div class="swiper-wrapper">
+        
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide swiper-slide-active">
+                      <div class="row h-100 align-items-center">
+                        <div class="col-md-7">
+                          <div class="tagline">
+                            <img src="assets/images/star.png" alt="Star" />
+                            <p>Platform Foundation</p>
+                          </div>
+                          <h2 class="yoso-h2">2025 Q2 – Brand & Mini-App Prototype</h2>
+                          <p class="yoso-desc">
+                            Finalize Lucidai brand and core identity.
+                            Telegram Mini-App v0.1 prototyped with AI prompt chain and symbolic matching logic.
+                            Investor outreach and partner onboarding begins.
+                          </p>
+                          <p class="clientName mt-3">Complete → Foundation Phase</p>
+                        </div>
+                        <div class="col-md-5 position-relative">
+                          <img class="qouteSign" src="assets/images/testimonials/qouteSign.png" alt="Qoute" />
+                          <img class="testimonialImg" src="assets/images/testimonials/t1.jpg" />
+                        </div>
+                      </div>
+                    </div>
+        
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                      <div class="row h-100 align-items-center">
+                        <div class="col-md-7">
+                          <div class="tagline">
+                            <img src="assets/images/star.png" alt="Star" />
+                            <p>Beta Launch</p>
+                          </div>
+                          <h2 class="yoso-h2">2025 Q2 – Telegram Mini-App Beta</h2>
+                          <p class="yoso-desc">
+                            Public beta of dream submission and AI interpretation.
+                            MyLucidai (Dream Diary) goes live.
+                            User feedback loop starts + airdrop campaign activated.
+                          </p>
+                          <p class="clientName mt-3">Live → July 2025</p>
+                        </div>
+                        <div class="col-md-5 position-relative">
+                          <img class="qouteSign" src="assets/images/testimonials/qouteSign.png" alt="Qoute" />
+                          <img class="testimonialImg" src="assets/images/testimonials/t2.jpg" />
+                        </div>
+                      </div>
+                    </div>
+        
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                      <div class="row h-100 align-items-center">
+                        <div class="col-md-7">
+                          <div class="tagline">
+                            <img src="assets/images/star.png" alt="Star" />
+                            <p>Token & IDO</p>
+                          </div>
+                          <h2 class="yoso-h2">2025 Q3 – LUCI TGE + Listings</h2>
+                          <p class="yoso-desc">
+                            Token Generation Event (TGE), public sale, CEX listing.
+                            Emotion analytics dashboard launch and first sponsor crypto matching partners onboard.
+                          </p>
+                          <p class="clientName mt-3">Planned → Q4 2025</p>
+                        </div>
+                        <div class="col-md-5 position-relative">
+                          <img class="qouteSign" src="assets/images/testimonials/qouteSign.png" alt="Qoute" />
+                          <img class="testimonialImg" src="assets/images/testimonials/t3.jpg" />
+                        </div>
+                      </div>
+                    </div>
+        
+                    <!-- Add more slides for Q1/Q2 2026 if needed -->
+        
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-md-3 tab-none position-relative">
+                <div thumbsSlider="" class="swiper testimonialsThumb">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="assets/images/testimonials/t1.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/images/testimonials/t2.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/images/testimonials/t3.jpg" />
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="prevNext">
+                  <button class="testimonial-prev">
+                    <i class="fa-solid fa-left-long"></i>
+                  </button>
+                  <button class="testimonial-next">
+                    <i class="fa-solid fa-right-long"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Experience Section -->
+        <section class="yoso-experience yoso-margin">
+          <div class="container">
+            <div class="row">
+        
+              <!-- 1. Dream Submissions -->
+              <div class="col-md-3 tab-33 sm-50">
+                <div class="experienceSingle d-flex align-items-center justify-content-start">
+                  <div class="expIcon">
+                    <i class="fa-solid fa-meteor"></i>
+                  </div>
+                  <article class="experienceTxt">
+                    <h2 class="yoso-h2"><span class="counter">60</span>K+</h2>
+                    <p class="yoso-desc">Dreams Analyzed</p>
+                  </article>
+                  <div class="BorderLine yoso-rotate-n-45"></div>
+                </div>
+              </div>
+        
+              <!-- 2. Crypto Matches -->
+              <div class="col-md-3 tab-33 sm-50">
+                <div class="experienceSingle d-flex align-items-center justify-content-start">
+                  <div class="expIcon">
+                    <i class="fa-solid fa-satellite-dish"></i>
+                  </div>
+                  <article class="experienceTxt">
+                    <h2 class="yoso-h2"><span class="counter">31</span>D</h2>
+                    <p class="yoso-desc">Beta Runing</p>
+                  </article>
+                  <div class="BorderLine yoso-rotate-45"></div>
+                </div>
+              </div>
+        
+              <!-- 3. Daily Active Users -->
+              <div class="col-md-3 tab-33 sm-50">
+                <div class="experienceSingle d-flex align-items-center justify-content-start">
+                  <div class="expIcon">
+                    <i class="fa-solid fa-rocket"></i>
+                  </div>
+                  <article class="experienceTxt">
+                    <h2 class="yoso-h2"><span class="counter">8,400</span></h2>
+                    <p class="yoso-desc">Daily Active Users</p>
+                  </article>
+                  <div class="BorderLine yoso-rotate-n-45"></div>
+                </div>
+              </div>
+        
+              <!-- 4. Telegram Bot Users -->
+              <div class="col-md-3 tab-33 sm-50">
+                <div class="experienceSingle d-flex align-items-center justify-content-start">
+                  <div class="expIcon">
+                    <i class="fa-solid fa-sailboat"></i>
+                  </div>
+                  <article class="experienceTxt">
+                    <h2 class="yoso-h2"><span class="counter">72</span>K</h2>
+                    <p class="yoso-desc">Telegram app Users</p>
+                  </article>
+                  <!-- <div class="BorderLine yoso-rotate-n-45"></div> -->
+                </div>
+              </div>
+        
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Tabs -->
+        <section class="yoso-tabs yoso-margin">
+          <div class="container">
+            <div class="tagline justify-content-center">
+              <img src="assets/images/star.png" alt="Star" />
+              <p>Step-by-Step Experience</p>
+            </div>
+            <h2 class="yoso-h2 text-center">How to Use Lucidai</h2>
+        
+            <div class="tabs-inner px-5 mt-5">
+              <div class="row align-items-center">
+                <div class="col-md-2">
+                  <div class="yoso-tab-button" id="nav-tab" role="tablist">
+                    <button class="active" id="nav-basic-tab" data-bs-toggle="tab" data-bs-target="#nav-basic" type="button"
+                      role="tab" aria-controls="nav-basic" aria-selected="true">
+                      Submit a Dream<i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                    <button id="nav-standard-tab" data-bs-toggle="tab" data-bs-target="#nav-standard" type="button" role="tab"
+                      aria-controls="nav-standard" aria-selected="false">
+                      Get AI Insight<i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                    <button id="nav-personal-tab" data-bs-toggle="tab" data-bs-target="#nav-personal" type="button" role="tab"
+                      aria-controls="nav-personal" aria-selected="false">
+                      Discover Tokens<i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                  </div>
+                </div>
+        
+                <div class="col-md-10">
+                  <div class="tab-content" id="nav-tabContent">
+        
+                    <!-- Step 1 -->
+                    <div class="tab-pane fade show active" id="nav-basic" role="tabpanel" aria-labelledby="nav-basic-tab"
+                      tabindex="0">
+                      <div class="row align-items-center">
+                        <div class="col-md-6 position-relative">
+                          <img src="assets/images/avatar1.png" alt="Avatar" class="w-100" />
+                          <img class="tabChart position-absolute bottom-0 end-0 rounded-4 mb-5 me-5"
+                            src="assets/images/tabs/chart.png" alt="tabs" />
+                        </div>
+                        <div class="col-md-6">
+                          <h4 class="yoso-h4">Step 1: Submit Your Dream</h4>
+                          <ul class="list-unstyled yoso-list-3">
+                            <li><i class="fa-solid fa-check"></i>Type your dream in natural language</li>
+                            <li><i class="fa-solid fa-check"></i>No need to format or summarize</li>
+                            <li><i class="fa-solid fa-check"></i>One free submission daily</li>
+                            <li><i class="fa-solid fa-check"></i>Send via Telegram Mini-App</li>
+                          </ul>
+                          <a href="https://t.me/lucidaidream_bot" class="yoso-button mt-5">Start Now
+                            <span><i class="fa-solid fa-arrow-right"></i><i class="fa-solid fa-arrow-right"></i></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <!-- Step 2 -->
+                    <div class="tab-pane fade" id="nav-standard" role="tabpanel" aria-labelledby="nav-standard-tab"
+                      tabindex="0">
+                      <div class="row align-items-center">
+                        <div class="col-md-6 position-relative">
+                          <img src="assets/images/avatar1.png" alt="Avatar" class="w-100" />
+                          <img class="tabChart position-absolute bottom-0 end-0 rounded-4 mb-5 me-5"
+                            src="assets/images/tabs/chart.jpg" alt="tabs" />
+                        </div>
+                        <div class="col-md-6">
+                          <h4 class="yoso-h4">Step 2: Receive Your Interpretation</h4>
+                          <ul class="list-unstyled yoso-list-3">
+                            <li><i class="fa-solid fa-check"></i>AI identifies emotions and symbolism</li>
+                            <li><i class="fa-solid fa-check"></i>Get personality traits and themes</li>
+                            <li><i class="fa-solid fa-check"></i>Receive full summary in seconds</li>
+                            <li><i class="fa-solid fa-check"></i>Save results to Dream Diary</li>
+                          </ul>
+                          <a href="https://t.me/lucidaidream_bot" class="yoso-button mt-5">Get My Insight
+                            <span><i class="fa-solid fa-arrow-right"></i><i class="fa-solid fa-arrow-right"></i></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <!-- Step 3 -->
+                    <div class="tab-pane fade" id="nav-personal" role="tabpanel" aria-labelledby="nav-personal-tab"
+                      tabindex="0">
+                      <div class="row align-items-center">
+                        <div class="col-md-6 position-relative">
+                          <img src="assets/images/avatar1.png" alt="Avatar" class="w-100" />
+                          <img class="tabChart position-absolute bottom-0 end-0 rounded-4 mb-5 me-5"
+                            src="assets/images/tabs/chart.jpg" alt="tabs" />
+                        </div>
+                        <div class="col-md-6">
+                          <h4 class="yoso-h4">Step 3: Discover Matching Tokens</h4>
+                          <ul class="list-unstyled yoso-list-3">
+                            <li><i class="fa-solid fa-check"></i>Receive token suggestions based on emotion</li>
+                            <li><i class="fa-solid fa-check"></i>Learn why each match was chosen</li>
+                            <li><i class="fa-solid fa-check"></i>Explore top projects like BTC, ETH, SOL</li>
+                            <li><i class="fa-solid fa-check"></i>Start building your emotional Web3 profile</li>
+                          </ul>
+                          <a href="https://t.me/lucidaidream_bot" class="yoso-button mt-5">Explore Matches
+                            <span><i class="fa-solid fa-arrow-right"></i><i class="fa-solid fa-arrow-right"></i></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+        
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="container">
+          <div class="yoso-break">
+            <img src="assets/images/star.png" alt="Star" />
+          </div>
+        </div>
+        <div class="container">
+          <!-- Yoso Faqs -->
+          <section class="yoso-faqs p-5">
+            <div class="row align-items-center">
+              <div class="col-md-6 my-4">
+                <div class="tagline">
+                  <img src="assets/images/star.png" alt="Star" />
+                  <p>Emotion Meets Intelligence</p>
+                </div>
+                <h2 class="yoso-h2">
+                  Your dreams hold the key. We help you unlock it.
+                </h2>
+                <a href="https://dream-lucidai.gitbook.io/dream-lucidai-docs" class="yoso-button mt-4">
+                  read more
+                  <span><i class="fa-solid fa-arrow-right"></i><i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+              </div>
+          
+              <div class="col-md-5 offset-md-1">
+                <div class="accordion" id="yosoFaq">
+          
+                  <!-- FAQ 1 -->
+                  <div class="faq-item">
+                    <h2 class="faq-header">
+                      <button type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true"
+                        aria-controls="faq1">
+                        What is Lucidai?
+                        <div class="plusminus"></div>
+                      </button>
+                    </h2>
+                    <div id="faq1" class="collapse show" data-bs-parent="#yosoFaq">
+                      <div class="faq-body">
+                        <p class="yoso-desc p-0 m-0">
+                          Lucidai is an AI-powered platform that interprets your dreams and matches them with relevant crypto
+                          projects based on emotional patterns and symbolic insight.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <!-- FAQ 2 -->
+                  <div class="faq-item">
+                    <h2 class="faq-header">
+                      <button class="collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2"
+                        aria-expanded="false" aria-controls="faq2">
+                        Is Lucidai free to use?
+                        <div class="plusminus"></div>
+                      </button>
+                    </h2>
+                    <div id="faq2" class="collapse" data-bs-parent="#yosoFaq">
+                      <div class="faq-body">
+                        <p class="yoso-desc p-0">
+                          Yes. Every user gets one free dream interpretation per day. Premium features such as deeper analysis,
+                          dream streak tracking, and emotion trend reports can be unlocked with LUCI tokens.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <!-- FAQ 3 -->
+                  <div class="faq-item">
+                    <h2 class="faq-header">
+                      <button class="collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3"
+                        aria-expanded="false" aria-controls="faq3">
+                        How does crypto matching work?
+                        <div class="plusminus"></div>
+                      </button>
+                    </h2>
+                    <div id="faq3" class="collapse" data-bs-parent="#yosoFaq">
+                      <div class="faq-body">
+                        <p class="yoso-desc p-0">
+                          Lucidai analyzes the emotional tone and symbolic content of your dream, then recommends crypto tokens
+                          that resonate with your psychological profile — e.g., fear → BTC, creativity → ETH.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+          
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </div>
+        <div class="container">
+          <div class="clients yoso-margin">
+            <img class="w-100" src="assets/images/client.png" alt="Client" />
+          </div>
+        </div>
+
+        <!-- Yoso Posts -->
+        <!-- <section id="blog" class="yoso-posts">
+          <div class="container">
+            <div class="tagline justify-content-center">
+              <img src="assets/images/star.png" alt="Star" />
+              <p>Real-time Announcements</p>
+            </div>
+            <h2 class="yoso-h2 text-center">Lucidai News & Updates</h2>
+        
+            <div class="row">
+        
+              
+              <div class="col-md-4 mt-4">
+                <div class="postSingle">
+                  <div class="postImg position-relative">
+                    <img src="assets/images/posts/p1.jpg" alt="Post" />
+                    <div class="postTime">
+                      <span class="date">08</span>
+                      <span class="month">Jul 2025</span>
+                    </div>
+                  </div>
+                  <h4 class="yoso-h4 m-0 mt-4">
+                    Lucidai Telegram Mini-App Beta is Live
+                  </h4>
+                  <p class="yoso-desc fw-medium">
+                    You can now submit your dreams and receive AI-powered interpretations directly via Telegram. The beta is
+                    open to all early users.
+                  </p>
+                </div>
+              </div>
+        
+              
+              <div class="col-md-4 mt-4">
+                <div class="postSingle">
+                  <div class="postImg position-relative">
+                    <img src="assets/images/posts/p2.jpg" alt="Post" />
+                    <div class="postTime">
+                      <span class="date">19</span>
+                      <span class="month">Jul 2025</span>
+                    </div>
+                  </div>
+                  <h4 class="yoso-h4 m-0 mt-4">
+                    LUCI Token TGE Confirmed for Q4 2025
+                  </h4>
+                  <p class="yoso-desc fw-medium">
+                    Our LUCI token will launch in Q4 with full tokenomics and listings on major platforms. Details and launchpad
+                    partner will be announced soon.
+                  </p>
+                </div>
+              </div>
+        
+             
+              <div class="col-md-4 mt-4">
+                <div class="postSingle">
+                  <div class="postImg position-relative">
+                    <img src="assets/images/posts/p3.jpg" alt="Post" />
+                    <div class="postTime">
+                      <span class="date">30</span>
+                      <span class="month">Jul 2025</span>
+                    </div>
+                  </div>
+                  <h4 class="yoso-h4 m-0 mt-4">
+                    Over 60K Users Have Tried Lucidai
+                  </h4>
+                  <p class="yoso-desc fw-medium">
+                    Our community is growing fast. Over 60,000 dream submissions have been processed and emotionally matched
+                    with tokens. Thank you for believing in emotional AI.
+                  </p>
+                </div>
+              </div>
+        
+            </div>
+          </div>
+        </section> -->
+
+
+        <!-- Skills -->
+        <section class="yoso-skills yoso-margin">
+          <div class="container">
+            <div class="tagline">
+              <img src="assets/images/star.png" alt="Star" />
+              <p>Lucidai Official Resources</p>
+            </div>
+            <h2 class="yoso-h2">Explore the Lucidai Ecosystem</h2>
+        
+            <div class="row mt-4 pt-2">
+        
+              <!-- Twitter -->
+              <div class="col-md-4 tab-lg-100 mb-4">
+                <a href="https://x.com/lucidaidream" target="_blank" class="text-decoration-none">
+                  <div class="skillBlock text-center h-100">
+                    <img src="assets/images/skills/x.png" alt="Twitter" />
+                    <article>
+                      <h3 class="yoso-h3 m-0">Twitter (X)</h3>
+                      <p class="yoso-desc p-0">Project Announcements</p>
+                    </article>
+                  </div>
+                </a>
+              </div>
+        
+              <!-- Telegram Chat -->
+              <div class="col-md-4 tab-lg-100 mb-4">
+                <a href="https://t.me/lucidreamai" target="_blank" class="text-decoration-none">
+                  <div class="skillBlock text-center h-100">
+                    <img src="assets/images/skills/discord.png" alt="Telegram Chat" />
+                    <article>
+                      <h3 class="yoso-h3 m-0">Telegram Chat</h3>
+                      <p class="yoso-desc p-0">Join the Community</p>
+                    </article>
+                  </div>
+                </a>
+              </div>
+        
+              <!-- Telegram Mini-App -->
+              <div class="col-md-4 tab-lg-100 mb-4">
+                <a href="https://t.me/lucidaidream_bot" target="_blank" class="text-decoration-none">
+                  <div class="skillBlock text-center h-100">
+                    <img src="assets/images/skills/stack.png" alt="Mini App" />
+                    <article>
+                      <h3 class="yoso-h3 m-0">Telegram Mini-App</h3>
+                      <p class="yoso-desc p-0">Submit Your Dream</p>
+                    </article>
+                  </div>
+                </a>
+              </div>
+        
+              <!-- GitBook -->
+              <div class="col-md-4 tab-lg-100 mb-4">
+                <a href="https://dream-lucidai.gitbook.io/dream-lucidai-docs" target="_blank" class="text-decoration-none">
+                  <div class="skillBlock text-center h-100">
+                    <img src="assets/images/skills/gcloud.png" alt="GitBook" />
+                    <article>
+                      <h3 class="yoso-h3 m-0">GitBook</h3>
+                      <p class="yoso-desc p-0">Read the Whitepaper</p>
+                    </article>
+                  </div>
+                </a>
+              </div>
+        
+              <!-- BSCScan -->
+              <div class="col-md-4 tab-lg-100 mb-4">
+                <a href="#" target="_blank" class="text-decoration-none">
+                  <div class="skillBlock text-center h-100">
+                    <img src="assets/images/skills/insta.png" alt="BSC Scan" />
+                    <article>
+                      <h3 class="yoso-h3 m-0">BSCScan</h3>
+                      <p class="yoso-desc p-0">Verify LUCI Contract</p>
+                    </article>
+                  </div>
+                </a>
+              </div>
+        
+              <!-- GitHub / Code -->
+              <div class="col-md-4 tab-lg-100 mb-4">
+                <a href="#" target="_blank" class="text-decoration-none">
+                  <div class="skillBlock text-center h-100">
+                    <img src="assets/images/skills/py.png" alt="GitHub" />
+                    <article>
+                      <h3 class="yoso-h3 m-0">Verified Code</h3>
+                      <p class="yoso-desc p-0">View Source Code</p>
+                    </article>
+                  </div>
+                </a>
+              </div>
+        
+            </div>
+          </div>
+        </section>
+
+
+        <footer class="yoso-footer">
+          <div class="container">
+            <div class="footerHeader position-relative">
+              <div class="row">
+                 <div class="col-md-6 tab-100">
+                  <div class="row align-items-center">
+                    <!-- <div class="col-md-6 tab-50 sm-100">
+                      <div class="logo">
+                        <img src="assets/images/header/icon.png" alt="Icon" />
+                      </div>
+                    </div> -->
+                    <div class="col-md-6 tab-50 sm-100">
+                      
+                      <img src="assets/images/header/typo.png" alt="Review" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 tab-100 align-self-center">
+                  <div class="d-flex align-items-center w-100 justify-content-end gap-3 flex-wrap">
+                    <h5 class="yoso-h5 headingLight">Join<br />Our Beta service</h5>
+                    <form class="newsLetter">
+                      <input type="TG" placeholder="Your TG hadle" />
+                      <button onclick="window.open('https://t.me/lucidaidream_bot', '_blank')">Join</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="footerMain">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-comment-dots phoneIcon"></i>
+                    <article class="phoneDetails">
+                      Contact us via Telegram
+                      <span class="d-block">@lucidreamai</span>
+                    </article>
+                  </div>
+                  <p class="yoso-desc">
+                    Lucidai helps you decode dreams, analyze emotions, and explore crypto with personalized insight. Built on
+                    emotional AI. Powered by community.
+                  </p>
+                </div>
+        
+                <div class="col-md-7">
+                  <div class="row">
+                    <!-- Resources -->
+                    <div class="col-md-4 tab-50">
+                      <h4 class="yoso-h4 mb-5 headingLight">Resources</h4>
+                      <ul class="list-unstyled footerLinks">
+                        <li><a href="https://dream-lucidai.gitbook.io/dream-lucidai-docs" target="_blank"><img src="assets/images/arrow.png"
+                              alt="Arrow" /><span class="linkTxt">Whitepaper</span></a></li>
+                        <li><a href="#" target="_blank"><img
+                              src="assets/images/arrow.png" alt="Arrow" /><span class="linkTxt">LUCI Token</span></a></li>
+                        <li><a href="#" target="_blank"><img src="assets/images/arrow.png"
+                              alt="Arrow" /><span class="linkTxt">Code</span></a></li>
+                      </ul>
+                    </div>
+        
+                    <!-- Company -->
+                    <div class="col-md-4 tab-50">
+                      <h4 class="yoso-h4 mb-5 headingLight">Project</h4>
+                      <ul class="list-unstyled footerLinks">
+                        <li><a href="https://dream-lucidai.gitbook.io/dream-lucidai-docs/introduction/what-is-lucidai"><img src="assets/images/arrow.png" alt="Arrow" /><span
+                              class="linkTxt">About</span></a></li>
+                        <li><a href="https://dream-lucidai.gitbook.io/dream-lucidai-docs/revenue-model/roadmap"><img src="assets/images/arrow.png" alt="Arrow" /><span
+                              class="linkTxt">Roadmap</span></a></li>
+                        <li><a href="#"><img src="assets/images/arrow.png" alt="Arrow" /><span
+                              class="linkTxt">Token</span></a></li>
+                      </ul>
+                    </div>
+        
+                    <!-- Community -->
+                    <div class="col-md-4 tab-50">
+                      <h4 class="yoso-h4 mb-5 headingLight">Community</h4>
+                      <ul class="list-unstyled footerLinks">
+                        <li><a href="https://t.me/lucidreamai" target="_blank"><img src="assets/images/arrow.png"
+                              alt="Arrow" /><span class="linkTxt">Telegram</span></a></li>
+                        <li><a href="https://x.com/lucidaidream" target="_blank"><img src="assets/images/arrow.png"
+                              alt="Arrow" /><span class="linkTxt">Twitter (X)</span></a></li>
+                        <li><a href="https://t.me/lucidaidream_bot" target="_blank"><img src="assets/images/arrow.png"
+                              alt="Arrow" /><span class="linkTxt">Mini-App</span></a></li>
+                      </ul>
+                    </div>
+        
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="copyright">
+          <div class="container">
+            <div class="w-100 h-100 flex-wrap d-flex align-items-center justify-content-between">
+              <div class="copyrightTxt sm-lg-100">
+                © 2025 Lucidai. All rights reserved.
+              </div>
+              <div class="d-flex gap-4 sm-lg-100 flex-wrap">
+                <a href="https://x.com/lucidaidream" target="_blank" class="socialIcon text-decoration-none">
+                  <i class="fa-brands fa-x-twitter"></i>Twitter
+                </a>
+                <a href="https://t.me/lucidreamai" target="_blank" class="socialIcon text-decoration-none">
+                  <i class="fa-brands fa-telegram"></i>Telegram
+                </a>
+                <a href="https://dream-lucidai.gitbook.io/dream-lucidai-docs" target="_blank" class="socialIcon text-decoration-none">
+                  <i class="fa-solid fa-book"></i>GitBook
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </main>
+    </div>
+    <div class="cursor"></div>
+    <button id="backToTop" class="back-to-top">↑ Top</button>
+
+    
+
+    <script src="assets/dist/libraries/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="assets/dist/framework/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.marquee@1.6.0/jquery.marquee.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/dist/libraries/swiperSlider/effects/swiper-gl.min.js"></script>
+    <script src="assets/dist/libraries/swiperSlider/effects/spring-slider.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.8.4/smooth-scrollbar.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/peterhry/CircleType@2.3.1/dist/circletype.min.js"></script>
+    <script src="assets/dist/js/custom.js"></script>
+  </body>
+</html>
